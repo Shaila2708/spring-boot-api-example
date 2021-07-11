@@ -25,7 +25,7 @@ pipeline {
                 DOCKER_HUB_LOGIN = credentials('docker-hub')
             }
             steps {
-                sh 'docker login --username=amseshadri --password=Rushank1234
+                sh 'docker login --username=shaila27 --password=Peaceangels27$
                 sh './gradlew dockerPush'
             }
         }
